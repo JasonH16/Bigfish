@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* General navbar styles */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkblue;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect with different colors */
+nav ul li:nth-child(1) a:hover {
+    background-color: #ff5733; /* Example: orange */
+    color: white;
+    box-shadow: 0 0 10px #ff5733;
+}
+
+nav ul li:nth-child(2) a:hover {
+    background-color: #33ff57; /* Example: green */
+    color: white;
+    box-shadow: 0 0 10px #33ff57;
+}
+
+nav ul li:nth-child(3) a:hover {
+    background-color: #3357ff; /* Example: blue */
+    color: white;
+    box-shadow: 0 0 10px #3357ff;
+}
+
+nav ul li:nth-child(4) a:hover {
+    background-color: #ff33a1; /* Example: pink */
+    color: white;
+    box-shadow: 0 0 10px #ff33a1;
+}
+
+nav ul li:nth-child(5) a:hover {
+    background-color: #ffd700; /* Example: gold */
+    color: white;
+    box-shadow: 0 0 10px #ffd700;
+}
+
+nav ul li:nth-child(6) a:hover {
+    background-color: #9400d3; /* Example: purple */
+    color: white;
+    box-shadow: 0 0 10px #9400d3;
+}
+
+
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: url() no-repeat center center/cover;
+    color: white;
+}
+
+.shapes, .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.shapes .shape, .gallery img {
+    width: 150px;
+    text-align: center;
+}
+/* General footer styles */
+footer {
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center align text horizontally */
+    justify-content: center; /* Center align content vertically */
+    background-color: #333; /* Match header background color */
+    color: white; /* White text for contrast */
+    padding: 20px; /* Add padding */
+    border-top: 4px solid #ff5733; /* Optional: Add a top border for emphasis */
+    text-align: center;
+}
+
+/* Style links in the footer */
+footer a {
+    color: #ff5733; /* Match a vibrant accent color */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffd700; /* Change link color on hover */
+}
+
+/* Style headings in the footer */
+footer h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Style paragraph text */
+footer p {
+    margin: 5px 0;
+}
