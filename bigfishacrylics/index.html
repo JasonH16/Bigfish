@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <script src="./scripts/main.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aquariums Direct</title>
-    <link rel="stylesheet" href="./styles/main.css">
-</head>
-<body>
-    <!-- Header and Navigation -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aquariums Direct</title>
+        <link rel="stylesheet" href="./styles/main.css">
+        <script defer src="./scripts/main.js"></script>
+    </head>
+    <body>
+        <!-- Header and Navigation -->
     <header>
         <div class="logo">
-            <a href="index.html"> <img src="./images/fish.jpeg" alt="fish"></a>
-            </div>
+            <a href="index.html"><img src="./images/fish.jpeg" alt="BigFish Logo"></a>
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -24,57 +24,37 @@
             </ul>
         </nav>
     </header>
-
+    
     <!-- Hero Banner -->
     <section class="hero">
-        <h1>Custom Aquariums Built to Perfection</h1>
-        <p>Your one-stop shop for high-quality aquariums with free shipping.</p>
-        <button>Shop All Aquariums</button>
+        <div class="video-background">
+            <video autoplay loop muted>
+                <source src="./images/sharks.jpeg.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <h1 class="Big">BigFish Custom Acrylic Aquariums</h1>
+        <p>Follow us on Instagram: <a href="https://instagram.com/bigfish_custom_acrylicaquarium" target="_blank">@bigfish_custom_acrylicaquarium</a></p>
+        <button id="quoteButton">Get a Quote</button>
     </section>
-
-    <!-- Shop by Shape Section -->
-    <section id="shop-by-shape">
-        <h2>Shop by Shape</h2>
-        <div class="shapes">
-            <div class="shape">
-                <img src="rectangle.jpg" alt="Rectangle">
-                <p>Rectangle</p>
+    <section id="homepage-slideshow">
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="./images/tank1.jpeg" alt="Slide 1">
             </div>
-            <div class="shape">
-                <img src="bowfront.jpg" alt="Bowfront">
-                <p>Bowfront</p>
+            <div class="slide fade">
+                <img src="./images/tank2.jpeg" alt="Slide 2">
             </div>
-            <!-- Add more shapes as needed -->
+            <div class="slide fade">
+                <img src="./images/tank3.jpeg" alt="Slide 3">
+            </div>
+            <!-- Navigation buttons -->
+            <a class="prev">&#10094;</a>
+            <a class="next">&#10095;</a>
         </div>
     </section>
-
-    <!-- Shop by Gallon Section -->
-    <section id="shop-by-gallon">
-        <h2>Shop by Gallon</h2>
-        <ul>
-            <li><a href="#">Under 100 Gallons</a></li>
-            <li><a href="#">100+ Gallons</a></li>
-            <li><a href="#">200+ Gallons</a></li>
-        </ul>
-    </section>
-
-    <!-- Custom Aquariums Section -->
-    <section id="custom-aquariums">
-        <h2>Custom Aquariums</h2>
-        <p>Work with our experts to design your dream aquarium.</p>
-        <button>Get Started</button>
-    </section>
-
-    <!-- Gallery Section -->
-    <section id="gallery">
-        <h2>Gallery</h2>
-        <div class="gallery">
-            <img src="tank1.jpg" alt="Custom Aquarium 1">
-            <img src="tank2.jpg" alt="Custom Aquarium 2">
-            <!-- Add more images -->
-        </div>
-    </section>
-
+    
+ 
     <!-- Contact Section -->
     <footer id="contact">
         <h2>Contact Us</h2>
